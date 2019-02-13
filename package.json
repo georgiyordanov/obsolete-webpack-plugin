@@ -1,0 +1,24 @@
+{
+  "name": "obsolete-web",
+  "version": "0.5.5",
+  "license": "MIT",
+  "description": "A library that detects browser compatibility and prompts website users to upgrade it.",
+  "keywords": [
+    "obsolete",
+    "obsolete-web"
+  ],
+  "main": "cjs/obsolete.js",
+  "module": "esm/obsolete.js",
+  "sideEffects": false,
+  "files": [
+    "cjs",
+    "esm",
+    "dist"
+  ],
+  "dependencies": {
+    "@babel/runtime-corejs2": "^7.0.0"
+  },
+  "bugs": "https://github.elenet.me/fe/obsolete-webpack-plugin/issues",
+  "homepage": "https://github.elenet.me/fe/obsolete-webpack-plugin",
+  "repository": "https://github.elenet.me/fe/obsolete-webpack-plugin.git"
+}
